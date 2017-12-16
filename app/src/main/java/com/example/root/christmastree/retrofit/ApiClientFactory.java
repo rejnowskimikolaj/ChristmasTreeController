@@ -15,13 +15,14 @@ public class ApiClientFactory {
 
     public TreeApiClient create(String url,String port) {
 
-        httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+        httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BASIC);
         builder.addInterceptor(httpLoggingInterceptor);
 
         Retrofit retrofit = new Retrofit.Builder()
+
                 .baseUrl(url+":"+port)
                 .addConverterFactory(GsonConverterFactory.create())
-//                .client(builder.build())
+                .client(builder.build())
                 .build();
 
         return retrofit.create(TreeApiClient.class);

@@ -37,6 +37,7 @@
 
             <SeekBar
                 android:thumb="@drawable/seekbar_thumb"
+                android:progressDrawable="@android:color/transparent"
                 android:id="@+id/seekBar"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
