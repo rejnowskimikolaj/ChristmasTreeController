@@ -15,10 +15,10 @@ import retrofit2.http.POST;
 
 public interface TreeApiClient {
 
-    @POST("setlevel")
+    @POST("/ChristmasTree/setlevel")
     Call<SendFrameResponse> sendFrame(@Body Frame frame);
 
-    @GET("getlevel")
+    @GET("/ChristmasTree/getlevel")
     Call<Frame> getFrame();
 
 }

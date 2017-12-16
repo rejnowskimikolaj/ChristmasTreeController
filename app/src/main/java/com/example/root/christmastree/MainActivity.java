@@ -139,6 +139,10 @@ public class MainActivity extends AppCompatActivity implements GetLevelAsyncTask
             connect();
         }
 
+        if(id == R.id.action_right) {
+            startActivity(new Intent(this, BulbActivity.class));
+        }
+
 
         return true;
     }

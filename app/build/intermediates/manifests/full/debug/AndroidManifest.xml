@@ -32,6 +32,7 @@
             android:name="com.example.root.christmastree.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.root.christmastree.BulbActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

@@ -12,4 +12,10 @@
         android:icon="@drawable/ic_connect"
         android:title="connect"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_right"
+        android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:title="switch activity"
+        app:showAsAction="ifRoom"/>
 </menu>
