@@ -1,0 +1,4 @@
+#Fri Dec 15 21:08:24 CET 2017
+base.0=/root/AndroidStudioProjects/ChristmasTree/app/build/intermediates/transforms/dexMerger/debug/22
+path.0=classes.dex
+renamed.0=classes.dex

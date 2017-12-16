@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#87011a</color>
+    <color name="colorPrimaryDark">#310102</color>
+    <color name="colorAccent">#ff2529</color>
+    <color name="background">#f5f5f5</color>
+    <color name="treeBorder">#555655</color>
+    <color name="treeBackground">#0f9700</color>
+    <color name="bulb1">#11169c</color>
+    <color name="bulb2">#37c5c7</color>
+    <color name="bulb3">#ce2b4e</color>
+    <color name="bulb4">#b3efd2</color>
+    <color name="bulb5">#f76f00</color>
+    <color name="bulb6">#f7de00</color>
+    <color name="bulb7">#00f794</color>
+    <color name="bulb8">#f700a5</color>
+
+
+
+
+</resources>
